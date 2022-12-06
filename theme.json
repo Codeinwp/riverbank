@@ -46,17 +46,17 @@
           "fontFace": [
             {
               "fontDisplay": "swap",
-              "fontFamily": "Readex Pro",
+              "fontFamily": "Fraunces",
               "fontStretch": "normal",
               "fontStyle": "normal",
-              "fontWeight": "160 700",
+              "fontWeight": "160 600",
               "src": [
-                "file:./assets/fonts/readex-pro/ReadexPro-VariableFont_wght.ttf"
+                "file:./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf"
               ]
             }
           ],
-          "fontFamily": "\"Readex Pro\", sans-serif",
-          "name": "Readex Pro",
+          "fontFamily": "\"Fraunces\", serif",
+          "name": "Fraunces",
           "slug": "body"
         },
         {
