@@ -155,32 +155,32 @@
       "fontSizes": [
         {
           "slug": "small",
-          "size": "14px",
+          "size": "16px",
           "name": "Small"
         },
         {
           "slug": "normal",
-          "size": "18px",
+          "size": "20px",
           "name": "Normal"
         },
         {
           "slug": "medium",
-          "size": "24px",
+          "size": "28px",
           "name": "Medium"
         },
         {
           "slug": "large",
-          "size": "28px",
+          "size": "32px",
           "name": "Large"
         },
         {
           "slug": "x-large",
-          "size": "32px",
+          "size": "40px",
           "name": "Extra Large"
         },
         {
           "slug": "huge",
-          "size": "56px",
+          "size": "64px",
           "name": "Huge"
         }
       ]
@@ -200,7 +200,7 @@
     },
     "layout": {
       "contentSize": "740px",
-      "wideSize": "960px"
+      "wideSize": "1140px"
     },
     "border": {
       "color": true,
@@ -293,7 +293,7 @@
     "blocks": {
       "core/button": {
         "border": {
-          "radius": "3px"
+          "radius": "0px"
         },
         "color": {
           "background": "var(--wp--preset--color--ti-accent)",
