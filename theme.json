@@ -6,7 +6,7 @@
       "palette": [
         {
           "slug": "ti-bg",
-          "color": "#EBE8E6",
+          "color": "#ECE6DC",
           "name": "Background"
         },
         {
@@ -16,17 +16,22 @@
         },
         {
           "slug": "ti-bg-alt",
-          "color": "rgba(255, 255, 255, 0.6)",
+          "color": "#FFFFFF",
           "name": "Background Alt"
         },
         {
+          "slug": "ti-bg-inv",
+          "color": "#1D1F25",
+          "name": "Background Dark"
+        },
+        {
           "slug": "ti-fg-alt",
-          "color": "#FDFDFD",
+          "color": "#FFFFFF",
           "name": "Foreground Alt"
         },
         {
           "slug": "ti-accent",
-          "color": "#C26148",
+          "color": "#1D1F25",
           "name": "Accent"
         }
       ],
