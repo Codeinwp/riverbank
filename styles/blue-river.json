@@ -40,7 +40,7 @@
     },
     "styles": {
       "typography": {
-        "fontFamily": "var(--wp--preset--font-family--Fraunces)"
+        "fontFamily": "var(--wp--preset--font-family--figtree)"
       }
     }
   }
