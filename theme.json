@@ -53,11 +53,21 @@
               "src": [
                 "file:./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf"
               ]
+            },
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "Fraunces",
+              "fontStretch": "normal",
+              "fontStyle": "italic",
+              "fontWeight": "160 600",
+              "src": [
+                "file:./assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf"
+              ]
             }
           ],
           "fontFamily": "\"Fraunces\", serif",
           "name": "Fraunces",
-          "slug": "body"
+          "slug": "fraunces"
         },
         {
           "fontFace": [
@@ -234,7 +244,7 @@
     },
     "typography": {
       "fontSize": "var(--wp--preset--font-size--normal)",
-      "fontFamily": "var(--wp--preset--font-family--body)",
+      "fontFamily": "var(--wp--preset--font-family--fraunces)",
       "fontWeight": "400",
       "lineHeight": "1.7"
     },
