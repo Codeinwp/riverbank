@@ -11,7 +11,7 @@
         },
         {
           "slug": "ti-fg",
-          "color": "#1D1F25",
+          "color": "#1F2127",
           "name": "Foreground"
         },
         {
@@ -21,7 +21,7 @@
         },
         {
           "slug": "ti-bg-inv",
-          "color": "#1D1F25",
+          "color": "#1F2125",
           "name": "Background Dark"
         },
         {
