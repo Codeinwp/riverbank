@@ -324,7 +324,7 @@
       },
       "core/comment-content": {
         "border": {
-          "radius": "5px"
+          "radius": "0px"
         },
         "color": {
           "background": "var(--wp--preset--color--ti-bg-alt)"
@@ -346,13 +346,13 @@
       "core/comment-date": {
         "typography": {
           "textTransform": "uppercase",
-          "fontSize": "12px"
+          "fontSize": "14px"
         }
       },
       "core/comment-edit-link": {
         "typography": {
           "textTransform": "uppercase",
-          "fontSize": "12px"
+          "fontSize": "14px"
         }
       },
       "core/comment-reply-link": {
@@ -372,7 +372,7 @@
       },
       "core/search": {
         "border": {
-          "radius": "5px"
+          "radius": "0px"
         }
       },
       "core/quote": {
