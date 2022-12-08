@@ -62,7 +62,20 @@ class Block_Patterns {
 			'riverbank' => array( 'label' => __( 'Riverbank Patterns', 'riverbank' ) ),
 		);
 
-		$patterns = array();
+		$patterns = array(
+			'boxed-columns-with-text-image-and-buttons',
+			'boxed-image-features-with-buttons',
+			'call-to-action-inverted',
+			'columns-with-images-and-buttons',
+			'feature-grid',
+			'full-width-columns-with-text-and-cover',
+			'hero-with-image-columns',
+			'posts-grid',
+			'pricing-plans-columns',
+			'pricing-plans-row',
+			'quote-section',
+			'section-with-covers-and-text',
+		);
 
 		$this->categories = apply_filters( 'riverbank_block_patterns_categories', $categories );
 		$this->patterns   = apply_filters( 'riverbank_block_patterns', $patterns );
