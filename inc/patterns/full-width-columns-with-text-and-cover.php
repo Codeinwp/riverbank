@@ -42,7 +42,7 @@ return array(
     
         <!-- wp:column -->
         <div class="wp-block-column">
-            <!-- wp:cover {"url":"' . esc_url( $image ) . '","dimRatio":50,"overlayColor":"raft-bg-alt","minHeight":567,"minHeightUnit":"px","isDark":false} -->
+            <!-- wp:cover {"url":"' . esc_url( $image ) . '","dimRatio":0,"overlayColor":"raft-bg-alt","minHeight":567,"minHeightUnit":"px","isDark":false} -->
             <div class="wp-block-cover is-light" style="min-height:567px">
             <span aria-hidden="true" class="wp-block-cover__background has-raft-bg-alt-background-color has-background-dim"></span>
             <img class="wp-block-cover__image-background" src="' . esc_url( $image ) . '" data-object-fit="cover"/>
