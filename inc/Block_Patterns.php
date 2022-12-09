@@ -75,6 +75,9 @@ class Block_Patterns {
 			'pricing-plans-row',
 			'quote-section',
 			'section-with-covers-and-text',
+			'hero-with-feature-columns',
+			'call-to-action-inverted-inline',
+			'columns-with-image-title-and-text',
 		);
 
 		$this->categories = apply_filters( 'riverbank_block_patterns_categories', $categories );

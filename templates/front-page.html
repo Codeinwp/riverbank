@@ -1,9 +1,18 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","theme":"riverbank"} /-->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:64px;padding-bottom:64px">
-    <!-- wp:post-content {"layout":{"type":"default"}} /-->
-</div>
+<!-- wp:pattern {"slug":"riverbank/hero-with-feature-columns"} /-->
+<!-- wp:pattern {"slug":"riverbank/call-to-action-inverted-inline"} /-->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"ti-bg-alt","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-ti-bg-alt-background-color has-background"
+     style="margin-top:0px;margin-bottom:0px;padding-top:64px;padding-bottom:64px">
+    <!-- wp:group -->
+    <div class="wp-block-group">
+        <!-- wp:post-content /-->
+    </div>
+    <!-- /wp:group --></div>
 <!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"riverbank/columns-with-image-title-and-text"} /-->
 
 <!-- wp:template-part {"slug":"footer","theme":"riverbank","tagName":"footer"} /-->
