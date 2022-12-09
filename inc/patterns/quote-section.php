@@ -13,7 +13,7 @@
  */
 
 return array(
-	'title'      => __( 'Row with pricing plans', 'riverbank' ),
+	'title'      => __( 'Quote', 'riverbank' ),
 	'categories' => array( 'riverbank' ),
 	'content'    => '
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"blockGap":"40px","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"ti-bg-inv","textColor":"ti-fg-alt","layout":{"inherit":true,"type":"constrained"}} -->
