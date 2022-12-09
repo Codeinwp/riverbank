@@ -22,8 +22,9 @@ $images = array(
 $cover_markup = '
 <!-- wp:column -->
 <div class="wp-block-column">
-	<!-- wp:cover {"url":"%1$s","dimRatio":60,"overlayColor":"ti-bg-inv","minHeight":567,"minHeightUnit":"px"} -->
-	<div class="wp-block-cover" style="min-height:567px"><span aria-hidden="true" class="wp-block-cover__background has-ti-bg-inv-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" src="%1$s" data-object-fit="cover"/>
+	<!-- wp:cover {"url":"%1$s","dimRatio":0,"overlayColor":"ti-bg-inv","minHeight":567,"minHeightUnit":"px"} -->
+	<div class="wp-block-cover" style="min-height:567px"><span aria-hidden="true" class="wp-block-cover__background has-ti-bg-inv-background-color has-background-dim-0 has-background-dim"></span>
+	<img class="wp-block-cover__image-background" src="%1$s" data-object-fit="cover"/>
 		<div class="wp-block-cover__inner-container">
 		<!-- wp:paragraph --><p></p><!-- /wp:paragraph -->
 		</div>
