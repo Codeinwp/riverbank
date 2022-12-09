@@ -7,7 +7,7 @@
         "palette": [
           {
             "slug": "ti-bg",
-            "color": "#E3E3E3",
+            "color": "#F1F1F1",
             "name": "Background"
           },
           {
@@ -17,7 +17,7 @@
           },
           {
             "slug": "ti-bg-alt",
-            "color": "rgba(245, 245, 242, 0.7)",
+            "color": "rgba(255, 255, 255, 0.7)",
             "name": "Background Alt"
           },
           {
