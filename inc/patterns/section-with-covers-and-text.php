@@ -41,7 +41,7 @@ foreach ( $images as $image ) {
 }
 
 return array(
-	'title'      => __( 'Row with pricing plans', 'riverbank' ),
+	'title'      => __( 'Full-width section with covers and text', 'riverbank' ),
 	'categories' => array( 'riverbank' ),
 	'content'    => '
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"ti-bg-alt","textColor":"ti-fg","layout":{"type":"constrained","justifyContent":"center"}} -->

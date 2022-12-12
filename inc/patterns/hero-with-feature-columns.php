@@ -45,7 +45,7 @@ foreach ( $features as $feature ) {
 }
 
 return array(
-	'title'      => __( 'Row with pricing plans', 'riverbank' ),
+	'title'      => __( 'Hero section with feature columns', 'riverbank' ),
 	'categories' => array( 'riverbank' ),
 	'content'    => '
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"blockGap":"24px","margin":{"top":"0px","bottom":"0px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
