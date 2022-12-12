@@ -16,6 +16,13 @@ Riverbank is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
 
+####   Version 1.0.0 (2022-12-12)
+
+- Initial release
+
+
+
+
 == Resources ==
 All images are licensed under CC0.
 
