@@ -35,7 +35,7 @@ $columns = '
 ';
 
 return array(
-	'title'      => __( 'Features grid', 'riverbank ' ),
+	'title'      => __( 'Features grid', 'riverbank' ),
 	'categories' => array( 'riverbank' ),
 	'content'    => '
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"margin":{"top":"0px","bottom":"0px"},"blockGap":"80px"}},"layout":{"type":"constrained"}} -->
