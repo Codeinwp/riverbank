@@ -44,8 +44,8 @@ return array(
 	'title'      => __( 'Row with pricing plans', 'riverbank' ),
 	'categories' => array( 'riverbank' ),
 	'content'    => '
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"ti-bg-alt","textColor":"raft-fg","layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group alignfull has-raft-fg-color has-ti-bg-alt-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"0px"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"ti-bg-alt","textColor":"ti-fg","layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull has-ti-fg-color has-ti-bg-alt-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
 	<!-- wp:columns {"align":"full","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"}}}} -->
 	<div class="wp-block-columns alignfull">
 	' . $covers_markup . '
