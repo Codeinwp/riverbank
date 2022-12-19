@@ -1,10 +1,13 @@
 <!-- wp:template-part {"slug":"header","theme":"riverbank","tagName":"header"} /-->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"margin":{"top":"0px","bottom":"0px"}},"border":{"bottom":{"width":"2px"}}},"backgroundColor":"ti-bg","className":"has-ti-bg-background-color","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-ti-bg-background-color has-background" style="border-bottom-width:2px;margin-top:0px;margin-bottom:0px;padding-top:64px;padding-bottom:64px"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"huge"} -->
-<h1 class="has-text-align-center has-huge-font-size">Blog Posts</h1>
-<!-- /wp:heading --></div>
-<!-- /wp:group -->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}}} -->
+<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+
+    <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"margin":{"top":"0px","bottom":"0px"}},"border":{"bottom":{"width":"2px"}}},"backgroundColor":"ti-bg","layout":{"type":"constrained"}} -->
+    <div class="wp-block-group alignfull has-ti-bg-background-color has-background" style="border-bottom-width:2px;margin-top:0px;margin-bottom:0px;padding-top:64px;padding-bottom:64px"><!-- wp:heading {"textAlign":"center","level":1,"fontSize":"huge"} -->
+        <h1 class="has-text-align-center has-huge-font-size">Blog Posts</h1>
+        <!-- /wp:heading --></div>
+    <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"64px","bottom":"64px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:64px;padding-bottom:64px"><!-- wp:query {"queryId":2,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":2},"align":"wide"} -->
@@ -40,11 +43,13 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"align":"center","placeholder":"Add text or blocks that will display when the query returns no results.","backgroundColor":"ti-bg-alt"} -->
-<p class="has-text-align-center has-ti-bg-alt-background-color has-background">Unfortunately no posts were
-                    found</p>
+<p class="has-text-align-center has-ti-bg-alt-background-color has-background">Unfortunately no posts were found</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
+<!-- /wp:group -->
+
+</main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","theme":"riverbank","tagName":"footer"} /-->
