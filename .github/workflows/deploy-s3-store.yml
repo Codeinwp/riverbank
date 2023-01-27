@@ -31,7 +31,7 @@ jobs:
           yarn run build
           yarn run dist
       - name: WordPress Theme Deploy
-        uses: HardeepAsrani/action-wordpress-theme-deploy@v1.0
+        uses: Codeinwp/action-wordpress-theme-deploy@v1.0
         env:
           SVN_PASSWORD: ${{ secrets.SVN_THEMEISLE_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_THEMEISLE_USERNAME }}
