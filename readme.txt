@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 Riverbank is a highly customizable and user-friendly WordPress theme that is optimized for search engines and fully compatible with the Gutenberg editor and popular page builder plugins. With support for WooCommerce, translation into other languages, and a responsive design, Riverbank is suitable for a variety of websites including blogs, small businesses, and online shops.
 == Copyright ==
-Riverbank WordPress theme, Copyright 2022 Themeisle
+Riverbank WordPress theme, Copyright 2023 Themeisle
 Riverbank is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
