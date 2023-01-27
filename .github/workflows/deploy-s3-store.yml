@@ -33,8 +33,8 @@ jobs:
       - name: WordPress Theme Deploy
         uses: HardeepAsrani/action-wordpress-theme-deploy@v1.0
         env:
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_THEMEISLE_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_THEMEISLE_USERNAME }}
       - name: Upload Latest Version to S3
         uses: jakejarvis/s3-sync-action@master
         with:
