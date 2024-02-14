@@ -1,3 +1,9 @@
+##### [Version 1.0.6](https://github.com/Codeinwp/riverbank/compare/v1.0.5...v1.0.6) (2024-02-14)
+
+### Improvements
+
+- **WordPress compatibility check**: Tested with the latest WordPress version for compatibility.
+
 ##### [Version 1.0.5](https://github.com/Codeinwp/riverbank/compare/v1.0.4...v1.0.5) (2023-06-06)
 
 - Improve Footer menu layout in Mobile
