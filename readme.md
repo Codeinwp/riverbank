@@ -16,6 +16,15 @@ Riverbank is distributed under the terms of the GNU GPLv2 or later
 
 ## Changelog ##
 
+##### [Version 1.0.7](https://github.com/Codeinwp/riverbank/compare/v1.0.6...v1.0.7) (2024-02-26)
+
+### Improvements
+
+- **Codebase Improvements**: Changes to the codebase that shouldnt affect the front-facing side of the theme.
+
+
+
+
 ##### [Version 1.0.6](https://github.com/Codeinwp/riverbank/compare/v1.0.5...v1.0.6) (2024-02-14)
 
 ### Improvements
