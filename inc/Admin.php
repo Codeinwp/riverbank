@@ -248,7 +248,7 @@ class Admin {
 				'apiHost'       => 'https://app.formbricks.com',
 				'userId'        => 'riverbank_' . $website_url,
 				'attributes'    => array(
-					'days_since_install' => self::convert_to_category( round( ( time() - get_option( 'riverbank_install', 0 ) ) / DAY_IN_SECONDS ) ),
+					'days_since_install' => self::convert_to_category( round( ( time() - get_option( 'riverbank_install', time() ) ) / DAY_IN_SECONDS ) ),
 				),
 			);
 
