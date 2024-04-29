@@ -16,9 +16,10 @@ namespace Riverbank;
  */
 class Assets_Manager {
 	const ASSETS_SLUGS = array(
-		'frontend-css'   => 'riverbank-style',
-		'editor-css'     => 'riverbank-editor',
-		'welcome-notice' => 'riverbank-welcome-notice',
+		'frontend-css'       => 'riverbank-style',
+		'editor-css'         => 'riverbank-editor',
+		'welcome-notice'     => 'riverbank-welcome-notice',
+		'design-pack-notice' => 'riverbank-design-pack-notice',
 	);
 
 	/**
