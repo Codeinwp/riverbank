@@ -16,6 +16,7 @@ namespace Riverbank;
  */
 class Constants {
 	const CACHE_KEYS = array(
-		'dismissed-welcome-notice' => 'riverbank-welcome-notice-dismissed',
+		'dismissed-welcome-notice'         => 'riverbank-welcome-notice-dismissed',
+		'dismissed-fse-design-pack-notice' => 'riverbank-design-pack-dismissed',
 	);
 }
