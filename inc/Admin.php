@@ -72,9 +72,6 @@ class Admin {
 			),
 			'designPackNoticeData'
 		);
-
-
-		echo '<div id="riverbank-design-pack-notice"></div>';
 	}
 
 
