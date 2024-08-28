@@ -1,3 +1,9 @@
+##### [Version 1.0.11](https://github.com/Codeinwp/riverbank/compare/v1.0.10...v1.0.11) (2024-08-28)
+
+### Bug Fixes
+
+- **Fix Notice Error**: Fixed an issue with the Notice causing an error when visiting the Editor.
+
 ##### [Version 1.0.10](https://github.com/Codeinwp/riverbank/compare/v1.0.9...v1.0.10) (2024-04-29)
 
 ### Improvements
