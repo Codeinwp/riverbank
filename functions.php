@@ -67,7 +67,7 @@ function check_php() {
  * @return void
  */
 function define_constants() {
-	define( 'RIVERBANK_VERSION', '1.0.11' );
+	define( 'RIVERBANK_VERSION', '1.0.12' );
 	define( 'RIVERBANK_DEBUG', defined( 'WP_DEBUG' ) && WP_DEBUG === true );
 	define( 'RIVERBANK_DIR', trailingslashit( get_template_directory() ) );
 	define( 'RIVERBANK_URL', trailingslashit( get_template_directory_uri() ) );

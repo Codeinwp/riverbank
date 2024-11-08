@@ -16,6 +16,13 @@ Riverbank is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
 
+##### [Version 1.0.12](https://github.com/Codeinwp/riverbank/compare/v1.0.11...v1.0.12) (2024-11-08)
+
+- Updated dependencies
+
+
+
+
 ##### [Version 1.0.11](https://github.com/Codeinwp/riverbank/compare/v1.0.10...v1.0.11) (2024-08-28)
 
 ### Bug Fixes
