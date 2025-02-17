@@ -71,6 +71,7 @@ function define_constants() {
 	define( 'RIVERBANK_DEBUG', defined( 'WP_DEBUG' ) && WP_DEBUG === true );
 	define( 'RIVERBANK_DIR', trailingslashit( get_template_directory() ) );
 	define( 'RIVERBANK_URL', trailingslashit( get_template_directory_uri() ) );
+	define( 'RIVERBANK_PRODUCT_SLUG', basename( RIVERBANK_DIR ) );
 }
 
 /**
