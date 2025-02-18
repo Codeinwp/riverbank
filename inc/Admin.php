@@ -327,7 +327,6 @@ class Admin {
 				$data = array(
 					'environmentId' => 'clr7jal6eexcy8up0wdufqz2d',
 					'attributes'    => array(
-						'days_since_install'  => self::convert_to_category( $install_days_number ),
 						'install_days_number' => $install_days_number,
 						'version'             => RIVERBANK_VERSION,
 					),
@@ -339,29 +338,5 @@ class Admin {
 			2 
 		);
 		do_action( 'themeisle_internal_page', RIVERBANK_PRODUCT_SLUG, $screen->id );
-	}
-
-	/**
-	 * Convert a number to a category.
-	 *
-	 * @param int $number Number to convert.
-	 * @param int $scale  Scale.
-	 *
-	 * @return int
-	 */
-	public static function convert_to_category( $number, $scale = 1 ) {
-		$normalized_number = intval( round( $number / $scale ) );
-
-		if ( 0 === $normalized_number || 1 === $normalized_number ) {
-			return 0;
-		} elseif ( $normalized_number > 1 && $normalized_number < 8 ) {
-			return 7;
-		} elseif ( $normalized_number >= 8 && $normalized_number < 31 ) {
-			return 30;
-		} elseif ( $normalized_number > 30 && $normalized_number < 90 ) {
-			return 90;
-		} elseif ( $normalized_number > 90 ) {
-			return 91;
-		}
 	}
 }
