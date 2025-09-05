@@ -1,3 +1,7 @@
+##### [Version 1.0.15](https://github.com/Codeinwp/riverbank/compare/v1.0.14...v1.0.15) (2025-09-05)
+
+- Updated dependencies
+
 ##### [Version 1.0.14](https://github.com/Codeinwp/riverbank/compare/v1.0.13...v1.0.14) (2025-05-28)
 
 - Updated dependencies
