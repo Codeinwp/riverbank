@@ -36,28 +36,22 @@
 			padding: 0 24px;
 			width: 100vw;
 			box-sizing: border-box;
-		}
-
-		.has-child {
 
 			.wp-block-navigation__submenu-container {
 				display: none;
 			}
 
-			&:hover {
-
-				.wp-block-navigation__submenu-container {
-					display: block;
-					width: 100%;
-					padding: 0;
-					padding-top: var(--wp--style--block-gap, 2em);
-				}
+			.wp-block-navigation__submenu-icon {
+				display: inline-block;
+				cursor: pointer;
 			}
-		}
 
-		.wp-block-navigation__submenu-icon {
-			display: inline-block;
-			cursor: pointer;
+			&.is-submenu-open > .wp-block-navigation__submenu-container {
+				display: block;
+				width: 100%;
+				padding: 0;
+				padding-top: var(--wp--style--block-gap, 2em);
+			}
 		}
 	}
 

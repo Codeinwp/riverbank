@@ -97,6 +97,7 @@ class Core {
 	 */
 	public function enqueue() {
 		Assets_Manager::enqueue_style( Assets_Manager::ASSETS_SLUGS['frontend-css'], 'style' );
+		Assets_Manager::enqueue_script( Assets_Manager::ASSETS_SLUGS['frontend-js'], 'script', true, array( 'jquery' ) );
 	}
 
 	/**
