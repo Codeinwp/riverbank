@@ -20,6 +20,7 @@ class Assets_Manager {
 		'editor-css'         => 'riverbank-editor',
 		'welcome-notice'     => 'riverbank-welcome-notice',
 		'design-pack-notice' => 'riverbank-design-pack-notice',
+		'frontend-js'        => 'riverbank-script',
 	);
 
 	/**
