@@ -24,4 +24,35 @@
 	.wp-block-navigation__submenu-container {
 		gap: 24px !important;
 	}
+
+	.wp-block-navigation__responsive-container-content {
+
+		.wp-block-navigation-item {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: center;
+			padding: 0 24px;
+			width: 100vw;
+			box-sizing: border-box;
+
+			.wp-block-navigation__submenu-container {
+				display: none;
+			}
+
+			.wp-block-navigation__submenu-icon {
+				display: inline-block;
+				cursor: pointer;
+			}
+
+			&.is-submenu-open > .wp-block-navigation__submenu-container {
+				display: block;
+				width: 100%;
+				padding: 0;
+				padding-top: var(--wp--style--block-gap, 2em);
+			}
+		}
+	}
+
 }
