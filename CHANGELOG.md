@@ -1,3 +1,8 @@
+##### [Version 1.0.17](https://github.com/Codeinwp/riverbank/compare/v1.0.16...v1.0.17) (2026-09-29)
+
+- Updated dependencies
+- Added AI agent support.
+
 ##### [Version 1.0.16](https://github.com/Codeinwp/riverbank/compare/v1.0.15...v1.0.16) (2026-05-14)
 
 - Updated dependencies
