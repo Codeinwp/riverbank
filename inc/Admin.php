@@ -38,6 +38,7 @@ class Admin {
 		add_action( 'enqueue_block_editor_assets', array( $this, 'add_fse_design_pack_notice' ) );
 		add_action( 'wp_ajax_riverbank_dismiss_design_pack_notice', array( $this, 'remove_design_pack_notice' ) );
 		add_filter( 'themeisle_sdk_blackfriday_data', array( $this, 'add_black_friday_data' ) );
+		add_filter( 'riverbank_ai_connect_metadata', array( $this, 'get_ai_connect_metadata' ) );
 	}
 	/**
 	 * Render design pack notice.
@@ -366,5 +367,26 @@ class Admin {
 		$configs[ RIVERBANK_PRODUCT_SLUG ] = $config;
 
 		return $configs;
+	}
+
+	/**
+	 * Get the data for the SDK "Connect your AI agent" module.
+	 *
+	 * @return array<string, string|string[]>
+	 */
+	public function get_ai_connect_metadata() {
+		return array(
+			'name'         => 'Riverbank',
+			'notice_cases' => array(
+				__( 'change your look with a style variation', 'riverbank' ),
+				__( 'edit your header and footer', 'riverbank' ),
+				__( 'drop your theme\'s patterns into a page', 'riverbank' ),
+			),
+			'prompts'      => array(
+				__( 'Apply Riverbank\'s dark style variation, but keep my current fonts.', 'riverbank' ),
+				__( 'Add a newsletter sign-up section to my footer.', 'riverbank' ),
+				__( 'Insert a two-column features pattern from Riverbank under the intro of my Services page.', 'riverbank' ),
+			),
+		);
 	}
 }
